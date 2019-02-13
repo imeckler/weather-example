@@ -1,0 +1,7 @@
+(executable
+  (name weather)
+  (public_name weather)
+  (libraries
+    async
+    core )
+  (preprocess (pps ppx_jane ppx_deriving.enum ppx_deriving.eq )))
